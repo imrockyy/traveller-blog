@@ -1,0 +1,312 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    font-family: lato,sans-serif;
+}
+header{
+    background-image: url(../img/front\ img.jpg);
+    min-height: 40rem;
+    background-size: cover;
+}
+
+.nav-link{
+    color: black !important;
+    font-size: 20px !important;
+    font-weight: 900 !important;
+    padding: 20px !important;
+}
+.nav-item .nav-link:hover{
+    color: rgba(0, 0, 0, 0.507) !important;
+}
+.fa-bars{
+    color: white;
+    font-size: 30px !important;
+}
+.login-btn{
+    margin-top: 5px;
+    width: 100px;
+    padding: 5px 0;
+    outline: none !important;
+    border: 2px solid green;
+    border-radius: 50px;
+    background: green;
+    color: white;
+    float: right;
+}
+.login-btn:hover{
+    color: black;
+    background: white;
+    border: 2px solid white;
+}
+.input-group{
+    width: 90%;
+    max-width: 500px;
+    border-radius: 30px;
+    background: white;
+    margin: auto;
+    padding: 2px;
+}
+.form-control{
+    border: 0;
+    border-radius: 30px 0 0 30px;
+    margin: 2px;
+    box-shadow: none !important;
+}
+.btn-btn{
+   border-radius: 50%;
+   font-size: 25px;
+   background: white;
+
+}
+.input-group-text .fa:hover{
+    color: black;
+    background:rgba(255, 255, 255, 0.377);
+}
+#home .container{
+    padding-top: 20rem;
+}
+#home .container h1{
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: 'Pacifico', cursive;
+    color: goldenrod;
+}
+#home .container p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Pacifico', cursive;
+}
+/*---------------------------section 2---------------------------------*/
+#blog{
+    font-family: 'Pacifico', cursive;
+}
+.title-text::before{
+    content: '';
+    background: teal;
+    height: 3px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+
+}
+.title-text::after{
+    content: '';
+    background: red;
+    height: 5px;
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(11px);
+}
+.price{
+    width: 50px;
+    height: 50px;
+    background: #ff5722;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    position: absolute;
+    left: 20px;
+    bottom: -20px;
+}
+.feature-img{
+    position: relative;
+
+}
+.rating{
+    padding: 3px;
+    float: right;
+    background: white;
+    bottom: -1px;
+    right: 0;
+    position: absolute;
+}
+#blog .fa{
+    font-size: 15px;
+    color: orangered;
+}
+.feature-details{
+    padding: 20px;
+    text-align: justify;
+}
+.feature-details h4{
+    font-weight: 600px;
+    margin-top: 20px;
+}
+.feature-details p{
+    font-weight: 50px;
+    color: grey;
+}
+.feature-details .fa{
+    margin-right: 8px;
+}
+.feature-box{
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    margin-bottom: 40px;
+}
+.button{
+    font-family: lato,sans-serif; 
+}
+#blog .btn:hover{
+    color: black;
+    background: white;
+}
+/*--------------------------section 3-------------------------------------*/
+#aboutus{
+    font-family: 'Pacifico', cursive;
+    background-color: rgba(255, 255, 255, 0.5)
+}
+#aboutus .btn:hover{
+    color: black;
+    background: white;
+}
+.img-container{
+    position: relative;
+    cursor: pointer;
+}
+.img-container::before {
+    content: "";
+    position: absolute;
+    top: -1.5rem;
+    left: -1.7rem;
+    width: 100%;
+    height: 100%;
+    outline: 0.5rem solid red;
+    z-index: -1;
+    transition: all 1s ease-in-out;
+  }
+  .img-container:hover:before {
+    top: 0;
+    left: 0;
+  }
+/*------------------------------section 4-----------------------------------*/
+#gallery{
+    font-family: 'Pacifico', cursive;
+}
+.gallery-box{
+    margin-bottom: 30px;
+}
+.gallery-box img{
+    border-radius: 10px;
+    cursor: pointer;
+}
+.gallery-box img:hover{
+    transform: scale(1.1);
+}
+.gallery-box h4{
+    display: block;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-shadow: -2px 2px 2px #000;
+    transform: translate(-50%,-50%);
+    
+}
+/*-------------------------------section 5--------------------------------*/
+.banner{
+    height: 30rem;
+    background-image: url(../img/img\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 8%;
+}
+.banner-highlight{
+    font-family: 'Pacifico', cursive;
+    padding: 70px 0;
+    background: 0,0,0,rgba(0, 0, 0, 0.7);
+    text-align: center;
+    color: white;
+}
+.booking-btn{
+    margin-top: 30px;
+    width: 100px;
+    padding: 5px 0;
+    outline: none !important;
+    border: 2px solid white;
+    border-radius: 50px;
+    background: transparent;
+    color: white;
+}
+.booking-btn:hover{
+    color: black;
+    background: white;
+}
+/*----------------------------footer-------------------------------------*/
+#footer{
+    font-family: 'Pacifico', cursive;
+    background: rgba(128, 128, 128, 0.479);
+}
+.footer-box{
+    padding: 20px;
+}
+.footer-box img{
+    width: 170px;
+    margin-bottom: 20px;
+}
+.footer-box .fa{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+}
+.footer-box .form-control{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 15px;
+    max-width: 250px;
+}
+
+.footer-box .btn-danger{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 15px; 
+}
+.icon-text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.line{
+    border-left: 2px solid red;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.social-icons img{
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+hr{
+    background-color: black;
+}
+.copyright{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#exampleModal{
+    font-family: 'Pacifico', cursive;
+}
+
+
+
+
+
+
+
